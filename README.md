@@ -8,10 +8,10 @@
 
 * The purpose of this Nodeserver is for custom control through the ISY for Irrigation and general Home automation for multiple control operations, WiFi, IP, BACnet.
 
-* It utilizes Contemporary Controls BASpi-6U6R and the BASpi-Edge-6U6R BACnet control Modules for up to six (6) irrigation zones per Node Server slot installed.
+* It utilizes Contemporary Controls BASpi-6U6R and the BASpi-Edge-6U6R BACnet control Modules for up to six (6) irrigation zones totalling 36 Zones.
 Please see links below for information & configuration of this Device within Contemporary Controls GUI.
 
-* Each BASpi Controller with its six zone outputs also has six universal inputs with the first input configured for outside air temperature in degrees fahrenheit and the last input configured for moisture or volumetric water content sensor in percent using a 0-10vdc volumetric transmitter. Finally with inputs 2-4 for raw value UOM's for your choice in configuration. Six Zones per Node Server installed in seperate slots.
+* Each BASpi Controller with its six zone outputs also has six universal inputs with the first input configured for outside air temperature in degrees fahrenheit and the last input configured for moisture or volumetric water content sensor in percent using a 0-10vdc volumetric transmitter. Finally with inputs 2-4 for raw value UOM's for your choice in configuration. Six Zones per Node installed by the controller based on your user key and value, for key nodes you enter up to 6. For each BASpi device you will need to add an IP Address. For the IP address you will enter for your key, irrip_0 - irrip_6. Then for value, the BASpi IP Address.
 
 * It is Best to use the Open Weather Map/WeatherBit Nodeserver to bring in your local weather conditions into your ISY to lock out your irrigation, if humidity, temperature, or even wind conditions make it unnessessary to water your landscaping! <https://github.com/bpaauwe/udi-owm-poly>
 
