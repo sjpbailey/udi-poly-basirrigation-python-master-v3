@@ -1,0 +1,48 @@
+ND-ctl-NAME = Irrigation Control
+ND-ctl-ICON = Irrigation
+ST-ctl-ST-NAME = NodeServer Online
+#ST-ctl-GV0-NAME = Number of childeren
+CMD-ctl-DISCOVER-NAME = Re-Discover
+
+ND-zone_1-NAME = Irrigation Control Zone
+ND-zone_1-ICON = Irrigation
+ST-str-GV6-NAME = ZONE-1
+ST-str-GV12-NAME = -
+ST-str-GV0-NAME = Outside Air Temperature
+
+ST-str-GV7-NAME = ZONE-2
+ST-str-GV13-NAME = -
+ST-str-GV1-NAME = UI-2 
+
+ST-str-GV8-NAME = ZONE-3
+ST-str-GV14-NAME = -
+ST-str-GV2-NAME = UI-3
+
+ST-str-GV9-NAME = ZONE-4
+ST-str-GV15-NAME = -
+ST-str-GV3-NAME = UI-4     
+
+ST-str-GV10-NAME = ZONE-5
+ST-str-GV16-NAME = -
+ST-str-GV4-NAME = UI-5  
+
+ST-str-GV11-NAME = ZONE-6
+ST-str-GV17-NAME = -
+ST-str-GV5-NAME = Soil Moisture %
+
+
+
+CMD-str-BON1-NAME = 1 ON
+CMD-str-BOF1-NAME = 1 OFF
+CMD-str-BON2-NAME = 2 ON
+CMD-str-BOF2-NAME = 2 OFF
+CMD-str-BON3-NAME = 3 ON
+CMD-str-BOF3-NAME = 3 OFF
+CMD-str-BON4-NAME = 4 ON
+CMD-str-BOF4-NAME = 4 OFF
+CMD-str-BON5-NAME = 5 ON
+CMD-str-BOF5-NAME = 5 OFF
+CMD-str-BON6-NAME = 6 ON
+CMD-str-BOF6-NAME = 6 OFF
+CMD-str-QUERY"-NAME = Query
+

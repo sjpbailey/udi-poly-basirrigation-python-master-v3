@@ -1,0 +1,27 @@
+<editors>
+	<!-- Boolean -->
+	<editor id="bool">
+		<range uom="2" subset="0,1" />
+	</editor>
+	<editor id="raw">
+		<range uom="56" min="-10000" max="10000" prec="0" /> 
+	</editor>
+	<editor id="MINUTES">
+        <range uom="44" min="0" max="60" nls="TIMEON"/>
+    </editor>
+    <editor id="onoff">
+        <range uom="80" subset="0,1" nls="ONOFF" />
+    </editor>
+    <editor id="FAHVAL">
+        <range uom="17" min="0" max="10000" prec="3" />
+    </editor>
+    <editor id="RAWVAL">
+        <range uom="56" min="0" max="10000" prec="0" />
+    </editor>
+    <editor id="PERMT">
+        <range uom="25" subset="0,1,2,3,4,5,6,7,8,9,10" nls="PERMT"/>
+    </editor>
+    <editor id="STATUS">
+        <range uom="80" subset="0,1" />
+    </editor>
+</editors>

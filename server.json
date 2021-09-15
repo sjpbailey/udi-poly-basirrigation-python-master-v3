@@ -1,0 +1,38 @@
+{
+	"name": "BASIRRIGATION",
+	"docs": "https://github.com/sjpbailey/udi-poly-basirrigation-python-master-v3/blob/master/README.md",
+	"type": "python3",
+	"executable": "BASIRRIGATION.py",
+	"install": "install.sh",
+	"description": "Irrigation for six zones",
+	"notice": "Follow all local codes and safety regulations",
+	"shortPoll": "120",
+	"longPoll": "240",
+	"testMode": false,
+	"logLevel": "INFO",
+	"profile_version": "3.0.1",
+	"customParams": {
+		"nodes": "0",
+		"irrip_0": "127.0.0.1"
+		
+	},
+	"credits": [
+		{
+			"title": "mypoly: a NodeServer for Template Integration",
+			"author": "Steve Bailey (sjpbailey)",
+			"version": "3.0.1",
+			"date": "Setember 3, 2021",
+			"source": "https://github.com/sjpbailey/udi-poly-basirrigation-python-master-v3",
+			"license": "https://github.com/sjpbailey/udi-poly-basirrigation-python-master-v3/LICENSE"
+		}
+	],
+	"store": {
+		"developer": "sjpbailey1961@gmail.com",
+		"purchaseOptions": [
+			{
+				"isPerpetual": true,
+				"price": 0
+			}
+		]
+	}
+}

@@ -1,0 +1,70 @@
+<nodeDefs>
+
+  <nodeDef id="ctl" nodeType="139" nls="ctl">
+    <sts>
+      <st id="ST" editor="bool" />
+      <!--<st id="GV0" editor="raw" />-->
+	</sts>
+    <cmds>
+      <sends />
+      <accepts>
+        <cmd id="DISCOVER" />
+      </accepts>
+    </cmds>
+  </nodeDef>
+
+  <nodeDef id="zone" nodeType="139" nls="str">
+    <sts>
+          <st id="GV6" editor="STATUS" />
+          <st id="GV12" editor="RAWVAL" />
+          <st id="GV0" editor="FAHVAL" />
+          <st id="GV7" editor="STATUS" />
+          <st id="GV13" editor="RAWVAL" />
+          <st id="GV1" editor="RAWVAL" />
+          <st id="GV8" editor="STATUS" />
+          <st id="GV14" editor="RAWVAL" />
+          <st id="GV2" editor="RAWVAL" />
+          <st id="GV9" editor="STATUS" />
+          <st id="GV15" editor="RAWVAL" />
+          <st id="GV3" editor="RAWVAL" />
+          <st id="GV10" editor="STATUS" />
+          <st id="GV16" editor="RAWVAL" />
+          <st id="GV4" editor="RAWVAL" />
+          <st id="GV11" editor="STATUS" />
+          <st id="GV17" editor="RAWVAL" />
+          <st id="GV5" editor="PERMT" />
+	</sts>
+  <cmds>
+      <sends>
+          <cmd id="BON1" />
+          <cmd id="BOF1" />
+          <cmd id="BON2" />
+          <cmd id="BOF2" />
+          <cmd id="BON3" />
+          <cmd id="BOF3" />
+          <cmd id="BON4" />
+          <cmd id="BOF4" />
+          <cmd id="BON5" />
+          <cmd id="BOF5" />
+          <cmd id="BON6" />
+          <cmd id="BOF6" />
+      </sends>    
+      <accepts>
+          <cmd id="BON1" />              
+          <cmd id="BOF1" />
+          <cmd id="BON2" />
+          <cmd id="BOF2" />
+          <cmd id="BON3" />
+          <cmd id="BOF3" />
+          <cmd id="BON4" />
+          <cmd id="BOF4" />
+          <cmd id="BON5" />
+          <cmd id="BOF5" />
+          <cmd id="BON6" />
+          <cmd id="BOF6" />
+          <cmd id="QUERY" />
+      </accepts>
+  </cmds>
+  </nodeDef>
+</nodeDefs>
+
