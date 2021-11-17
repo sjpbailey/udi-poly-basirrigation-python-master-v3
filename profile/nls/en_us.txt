@@ -1,11 +1,10 @@
 ND-ctl-NAME = Irrigation Control
 ND-ctl-ICON = Irrigation
 ST-ctl-ST-NAME = NodeServer Online
-#ST-ctl-GV0-NAME = Number of childeren
 CMD-ctl-DISCOVER-NAME = Re-Discover
 
-ND-zone_1-NAME = Irrigation Control Zone
-ND-zone_1-ICON = Irrigation
+ND-zone-NAME = Irrigation Control Zone
+ND-zone-ICON = Irrigation
 ST-str-GV6-NAME = ZONE-1
 ST-str-GV12-NAME = -
 ST-str-GV0-NAME = Outside Air Temperature
