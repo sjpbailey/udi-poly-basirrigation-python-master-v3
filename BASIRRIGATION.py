@@ -9,6 +9,7 @@ import udi_interface
 import sys
 
 from nodes import irrigation_ctl
+from nodes import irrigation_zone
 
 LOGGER = udi_interface.LOGGER
 
