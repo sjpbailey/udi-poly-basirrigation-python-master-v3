@@ -10,7 +10,7 @@
 	"longPoll": "240",
 	"testMode": false,
 	"logLevel": "INFO",
-	"profile_version": "3.0.3",
+	"profile_version": "3.0.4",
 	"customParams": {
 		"nodes": "0",
 		"irrip_0": "127.0.0.1",
@@ -24,7 +24,7 @@
 		{
 			"title": "mypoly: a NodeServer for Template Integration",
 			"author": "Steve Bailey (sjpbailey)",
-			"version": "3.0.3",
+			"version": "3.0.4",
 			"date": "Setember 3, 2021",
 			"source": "https://github.com/sjpbailey/udi-poly-basirrigation-python-master-v3",
 			"license": "https://github.com/sjpbailey/udi-poly-basirrigation-python-master-v3/LICENSE"
