@@ -1,6 +1,6 @@
 ND-ctl-NAME = Irrigation Control
 ND-ctl-ICON = Irrigation
-ST-ctl-ST-NAME = NodeServer Online
+ST-ctl-ST-NAME = Online
 CMD-ctl-DISCOVER-NAME = Re-Discover
 
 ND-zone-NAME = Irrigation Control Zone
@@ -28,7 +28,7 @@ ST-str-GV4-NAME = UI-5
 ST-str-GV11-NAME = ZONE-6
 ST-str-GV17-NAME = -
 ST-str-GV5-NAME = Soil Moisture %
-
+ST-str-ST-NAME = Online
 
 
 CMD-str-BON1-NAME = 1 ON

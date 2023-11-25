@@ -52,6 +52,10 @@ class IrrigationNode(udi_interface.Node):
             LOGGER.info('ipaddress')
         else:
             pass
+        if self.bc.ePlatform == Platform.BASC_PI or self.bc.ePlatform == Platform.BASC_PO or self.bc.ePlatform == Platform.BASC_ED:
+            self.setDriver("ST", 1)
+        else:
+            self.setDriver("ST", 0)
 
         # How many nodes or points does the device have
         LOGGER.info('\t' + str(self.bc.uiQty) +

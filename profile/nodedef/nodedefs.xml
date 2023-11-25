@@ -33,6 +33,7 @@
           <st id="GV11" editor="STATUS" />
           <st id="GV17" editor="RAWVAL" />
           <st id="GV5" editor="PERMT" />
+          <st id="ST" editor="bool" />
 	</sts>
   <cmds>
       <sends>
